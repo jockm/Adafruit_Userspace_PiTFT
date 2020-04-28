@@ -15,9 +15,6 @@
 #include <linux/spi/spidev.h>
 #include <bcm_host.h>
 
-// Shit. TFT reset is done through STMPE GPIO :/
-// Will need to add a bunch of spidev1 calls for that.
-
 #define ILI9341_TFTWIDTH   240
 #define ILI9341_TFTHEIGHT  320
 
